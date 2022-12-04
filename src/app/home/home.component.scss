@@ -1,0 +1,23 @@
+section {
+    margin: 20px;
+}
+
+.container{
+    margin: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.page {
+    //   padding: 15px 20px;
+    padding: 2.54cm 1.32cm 3.67cm 1.9cm;
+    width: calc(21cm - 1.9cm - 1.32cm);
+    height: calc(29.7cm - 2.54cm - 3.67cm);
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 14px -8px grey;
+    overflow: hidden;
+}
+
+.bt{
+    margin-top: 8px;
+}

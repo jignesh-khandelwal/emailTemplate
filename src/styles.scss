@@ -1,0 +1,19 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css"; 
+
+.f_c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    outline: 0;
+  border-width: 0 0 1px;
+  border-color: #000000;
+  background-color: #F5F5F5;
+  }
+
+
+  input:focus{
+    background-color: white;
+  }

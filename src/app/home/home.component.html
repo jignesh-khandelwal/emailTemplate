@@ -1,0 +1,17 @@
+<section class="f_c" style="align-items: flex-start;">
+  <div class="f_c container">
+    <mat-form-field appearance="fill">
+      <mat-label>Select template</mat-label>
+      <mat-select (selectionChange)="selectChange($event)" value="template_a">
+        <mat-option *ngFor="let template of templateList" [value]="template.value">
+          {{template.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <button class="bt" mat-raised-button (click)="generatePdf()">Generate pdf</button>
+  </div>
+
+  <div id="page1" class="page">
+  </div>
+</section>
